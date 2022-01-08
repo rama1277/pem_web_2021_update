@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Multimedia</title>
+	<style>
+		.vidioo {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<h2> Pasang Vidio </h2>
+	<video class="vidioo" width="640" height="360" controls> 
+		<!-- 
+			controls buat play,pause, volume, dll
+			pakein width height biar nggak flicker
+			ga support autoplay harus pake autoplay muted
+		-->
+  		<source src="vidio/welpeper.mp4" type="video/mp4">
+  		Your browser does not support HTML video.
+	</video>
+</body>
+</html>
